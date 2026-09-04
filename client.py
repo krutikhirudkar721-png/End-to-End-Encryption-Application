@@ -8,6 +8,7 @@ PORT = 5000
 with open("shared_key.bin", "rb") as file:
     key = file.read()
 
+
 # Get message
 message = input("Enter your message: ")
 
