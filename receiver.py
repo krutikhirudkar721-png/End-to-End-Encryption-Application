@@ -1,6 +1,5 @@
 import socket
 from crypto_utils import decrypt_message
-
 HOST = "127.0.0.1"
 PORT = 5000
 
