@@ -17,8 +17,6 @@ def encrypt_message(message, key):
     )
 
     return base64.b64encode(nonce + ciphertext).decode()
-
-
 def decrypt_message(encrypted_message, key):
     data = base64.b64decode(encrypted_message)
 
