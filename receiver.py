@@ -24,7 +24,6 @@ print(encrypted_message)
 
 # Decrypt
 decrypted = decrypt_message(encrypted_message, key)
-
 print("\nDecrypted message:")
 print(decrypted)
 
