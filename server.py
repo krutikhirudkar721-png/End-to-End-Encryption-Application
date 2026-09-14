@@ -14,7 +14,6 @@ receiver_conn = None
 
 while True:
     conn, address = server.accept()
-
     role = conn.recv(1024).decode()
 
     if role == "RECEIVER":
