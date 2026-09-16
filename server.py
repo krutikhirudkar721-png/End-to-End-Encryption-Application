@@ -36,7 +36,6 @@ while True:
 
         if receiver_conn:
             receiver_conn.close()
-
         break
 
 server.close()
