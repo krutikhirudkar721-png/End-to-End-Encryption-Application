@@ -3,7 +3,6 @@ from crypto_utils import encrypt_message
 
 HOST = "127.0.0.1"
 PORT = 5000
-
 # Load shared secret key
 with open("shared_key.bin", "rb") as file:
     key = file.read()
