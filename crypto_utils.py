@@ -2,7 +2,6 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 import os
 import base64
 
-
 def generate_key():
     return AESGCM.generate_key(bit_length=256)
 
